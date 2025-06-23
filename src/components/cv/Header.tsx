@@ -29,7 +29,7 @@ const Header = () => {
                 </div>
               </div>
               <div className="absolute -bottom-2 -right-2 w-16 h-16 bg-green-400 rounded-full flex items-center justify-center border-4 border-white">
-                <span className="text-white font-bold text-sm">DEVOPS</span>
+                <span className="text-white font-bold text-sm">DEV</span>
               </div>
             </div>
           </motion.div>
