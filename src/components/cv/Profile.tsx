@@ -1,13 +1,16 @@
 
 import { motion } from "framer-motion";
-import { Code, Database, Server, Smartphone } from "lucide-react";
+import { Code, Database, PhoneOutgoing, Server, Sigma, Smartphone } from "lucide-react";
+import { Card, CardContent, CardTitle } from "../ui/card";
+import { CartesianGrid } from "recharts";
 
 const Profile = () => {
   const highlights = [
     { icon: Code, text: "Développement Full-Stack" },
     { icon: Database, text: "Gestion de Bases de Données" },
     { icon: Server, text: "Systèmes Embarqués" },
-    { icon: Smartphone, text: "Applications Mobiles" }
+    { icon: Code, text: "Développement Web" },
+    { icon: Card, text: "Cartographie et SIG" },//
   ];
 
   return (

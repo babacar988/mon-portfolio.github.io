@@ -16,14 +16,14 @@ const Education = () => {
       degree: "Licence 2 en AgroTIC",
       period: "2020-2021",
       location: "Kaolack, Sénégal",
-      status: "Diplômé"
+      status: "Terminer"
     },
     {
       institution: "Université du Sine Saloum El hadji Ibrahima Niass (USSEIN)",
       degree: "Licence 1 en AgroTIC",
       period: "2019-2020",
       location: "Kaolack, Sénégal",
-      status: "Diplômé"
+      status: "Terminer"
     }
   ];
 

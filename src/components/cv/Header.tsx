@@ -25,7 +25,7 @@ const Header = () => {
             <div className="relative">
               <div className="w-48 h-48 rounded-full bg-gradient-to-br from-blue-400 to-indigo-600 p-1">
                 <div className="w-full h-full rounded-full bg-white flex items-center justify-center text-6xl font-bold text-blue-600">
-                  <img src="baba.jpg.jpg" className="rounded-full" alt="" />
+                  <img src="baba.jpg.jpg" className="absolute -right-1,5 w-60 h-60 rounded-full" alt="" />
                 </div>
               </div>
               <div className="absolute -bottom-2 -right-2 w-16 h-16 bg-green-400 rounded-full flex items-center justify-center border-4 border-white">
@@ -53,7 +53,7 @@ const Header = () => {
               transition={{ delay: 0.4 }}
               className="text-xl md:text-2xl text-blue-100 mb-8 font-light"
             >
-              Ingénieur Informatique & Développeur Full-Stack
+              Ingénieur de Conception & Développeur Full-Stack
             </motion.p>
 
             <motion.div 
@@ -87,11 +87,11 @@ const Header = () => {
                 Télécharger CV
               </button>
               <div className="flex gap-3">
-                <a href="#" className="w-12 h-12 bg-blue-500/20 rounded-lg flex items-center justify-center hover:bg-blue-500/30 transition-all duration-300">
-                  <Linkedin className="w-6 h-6" />
+                <a href="www.linkedin.com/in/babacar-sarr-506444285" className="w-12 h-12 bg-blue-500/20 rounded-lg flex items-center justify-center hover:bg-blue-500/30 transition-all duration-300">
+                  <Linkedin className="w-6 h-6"  />
                 </a>
-                <a href="#" className="w-12 h-12 bg-blue-500/20 rounded-lg flex items-center justify-center hover:bg-blue-500/30 transition-all duration-300">
-                  <Github className="w-6 h-6" />
+                <a href="https://github.com/babacar988/" className="w-12 h-12 bg-blue-500/20 rounded-lg flex items-center justify-center hover:bg-blue-500/30 transition-all duration-300">
+                  <Github className="w-6 h-6"/>
                 </a>
               </div>
             </motion.div>
